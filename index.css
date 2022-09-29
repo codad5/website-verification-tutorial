@@ -1,0 +1,59 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    
+}
+
+main, header , footer{
+    width:100vw;
+    position:relative;
+}
+
+.verify_modal{
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    background: var(--secondary-color);
+    display:grid;
+    place-items: center;
+
+}
+.verify-wrapper{
+    width:clamp(300px, 80vw, 500px);
+    height: 100%;
+    display:inline-block;
+    padding:40% 0px;
+    text-align: center;
+
+}
+
+.notifications-box-cnt {
+    position: fixed;
+    z-index: 1000000;
+    width: clamp(200px, 90vw, 500px);
+    right: 20px;
+
+}
+
+.verify-wrapper h3{
+    width: 100%;
+    padding:5px;
+    text-align: center;
+}
+
+.verify-wrapper form {
+    width: 100%;
+    text-align: center;
+}
+.verify-wrapper form input {
+    display: inline-block;
+    width:clamp(300px, 55%, 400px);
+    height:50px;
+    margin: 15px 0;
+    padding:5px ;
+}
+
